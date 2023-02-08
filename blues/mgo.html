@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>7 MGO | Protocols for Ragworms</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="generator" content="bookdown 0.31 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="7 MGO | Protocols for Ragworms" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="7 MGO | Protocols for Ragworms" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  
+
+<meta name="author" content="Duy Nghia Pham, Inna M. Sokolova" />
+
+
+<meta name="date" content="2023-02-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="lipids.html"/>
+<link rel="next" href="MDA.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Protocols for Ragworms</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Homogenization</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#materials"><i class="fa fa-check"></i><b>1.1</b> Materials</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#methods"><i class="fa fa-check"></i><b>1.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="cea.html"><a href="cea.html"><i class="fa fa-check"></i><b>2</b> CEA</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="cea.html"><a href="cea.html#organization"><i class="fa fa-check"></i><b>2.1</b> Organization</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="ETS.html"><a href="ETS.html"><i class="fa fa-check"></i><b>3</b> ETS</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="ETS.html"><a href="ETS.html#materials-1"><i class="fa fa-check"></i><b>3.1</b> Materials</a></li>
+<li class="chapter" data-level="3.2" data-path="ETS.html"><a href="ETS.html#methods-1"><i class="fa fa-check"></i><b>3.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="proteins.html"><a href="proteins.html"><i class="fa fa-check"></i><b>4</b> Proteins</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="proteins.html"><a href="proteins.html#materials-2"><i class="fa fa-check"></i><b>4.1</b> Materials</a></li>
+<li class="chapter" data-level="4.2" data-path="proteins.html"><a href="proteins.html#methods-2"><i class="fa fa-check"></i><b>4.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="carbs.html"><a href="carbs.html"><i class="fa fa-check"></i><b>5</b> Carbohydrates</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="carbs.html"><a href="carbs.html#materials-3"><i class="fa fa-check"></i><b>5.1</b> Materials</a></li>
+<li class="chapter" data-level="5.2" data-path="carbs.html"><a href="carbs.html#methods-3"><i class="fa fa-check"></i><b>5.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="lipids.html"><a href="lipids.html"><i class="fa fa-check"></i><b>6</b> Lipids</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="lipids.html"><a href="lipids.html#materials-4"><i class="fa fa-check"></i><b>6.1</b> Materials</a></li>
+<li class="chapter" data-level="6.2" data-path="lipids.html"><a href="lipids.html#methods-4"><i class="fa fa-check"></i><b>6.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="mgo.html"><a href="mgo.html"><i class="fa fa-check"></i><b>7</b> MGO</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="mgo.html"><a href="mgo.html#materials-5"><i class="fa fa-check"></i><b>7.1</b> Materials</a></li>
+<li class="chapter" data-level="7.2" data-path="mgo.html"><a href="mgo.html#methods-5"><i class="fa fa-check"></i><b>7.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="MDA.html"><a href="MDA.html"><i class="fa fa-check"></i><b>8</b> MDA</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="MDA.html"><a href="MDA.html#materials-6"><i class="fa fa-check"></i><b>8.1</b> Materials</a></li>
+<li class="chapter" data-level="8.2" data-path="MDA.html"><a href="MDA.html#methods-6"><i class="fa fa-check"></i><b>8.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="enzyme-assays.html"><a href="enzyme-assays.html"><i class="fa fa-check"></i><b>9</b> Enzyme assays</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="enzyme-assays.html"><a href="enzyme-assays.html#organization-1"><i class="fa fa-check"></i><b>9.1</b> Organization</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="GR.html"><a href="GR.html"><i class="fa fa-check"></i><b>10</b> GR</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="GR.html"><a href="GR.html#materials-7"><i class="fa fa-check"></i><b>10.1</b> Materials</a></li>
+<li class="chapter" data-level="10.2" data-path="GR.html"><a href="GR.html#methods-7"><i class="fa fa-check"></i><b>10.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="GST.html"><a href="GST.html"><i class="fa fa-check"></i><b>11</b> GST</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="GST.html"><a href="GST.html#materials-8"><i class="fa fa-check"></i><b>11.1</b> Materials</a></li>
+<li class="chapter" data-level="11.2" data-path="GST.html"><a href="GST.html#methods-8"><i class="fa fa-check"></i><b>11.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="tac.html"><a href="tac.html"><i class="fa fa-check"></i><b>12</b> TAC</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="tac.html"><a href="tac.html#materials-9"><i class="fa fa-check"></i><b>12.1</b> Materials</a></li>
+<li class="chapter" data-level="12.2" data-path="tac.html"><a href="tac.html#methods-9"><i class="fa fa-check"></i><b>12.2</b> Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="gene-expression.html"><a href="gene-expression.html"><i class="fa fa-check"></i><b>13</b> Gene expression</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="mailto:nghiapham@yandex.com" target="blank">Send feedback</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Protocols for Ragworms</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="mgo" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">7</span> MGO<a href="mgo.html#mgo" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Modified after <span class="citation">Mitchel and Birnboim (<a href="#ref-mitchel1977" role="doc-biblioref">1977</a>)</span>.</p>
+<div id="materials-5" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Materials<a href="mgo.html#materials-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>≈0.1 M borax: in 50 mL tube add 1.5255 g borax (M<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> = 381.37) and 40 mL water. Make another one. Rotate 20 min. Transfer to 100 mL bottle. Store in dark at 25°C<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a>.</li>
+<li>0.2 M Girard’s reagent T: in 50 mL tube add 1.3411 g Girard T (M = 167.64) and 40 mL water. Rotate 5 min. Transfer to 50 mL bottle. Store in dark at 4°C.</li>
+<li>1232 uM methylglyoxal stock solution: in 50 mL tube add 10 uL ≈6.16 M methylglyoxal (M = 72.06, 40% w/w in water, d = 1.11) and 50 mL homogenization buffer<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a> (5000-fold dilution). Rotate 5 min. Store at 4°C.</li>
+</ul>
+</div>
+<div id="methods-5" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Methods<a href="mgo.html#methods-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Thaw out homogenate (max. 24 samples each run). <strong>Vortex</strong> and transfer 250 uL to 1.5 mL tube. Centrifuge at 10,000 ×<em>g</em> for 15 min at 25°C. Transfer 200 uL supernatant to 1.5 mL tube.</li>
+<li>Prepare 200 uL methylglyoxal standards in 1.5 mL tube by stock dilution.</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>uM standard</th>
+<th>uL stock</th>
+<th>uL homogenization buffer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1232</td>
+<td>200</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>616</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr class="odd">
+<td>308</td>
+<td>50</td>
+<td>150</td>
+</tr>
+<tr class="even">
+<td>154</td>
+<td>25</td>
+<td>175</td>
+</tr>
+<tr class="odd">
+<td>77</td>
+<td>12.5</td>
+<td>187.5</td>
+</tr>
+<tr class="even">
+<td>38.5</td>
+<td>6.25</td>
+<td>193.75</td>
+</tr>
+<tr class="odd">
+<td>0</td>
+<td>0</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Add 250 uL borax and 50 uL Girard T to samples and standards using repeating pipette.</li>
+<li><strong>Vortex</strong> and heat at 60°C<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a> for 10 min. Cool to 25°C for 5 min.</li>
+<li>Centrifuge at 10,000 ×<em>g</em> for 5 min at 25°C<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a>.</li>
+<li>Measure<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a> absorbance of 200 μL in <strong>duplicate</strong> at 325 nm. Shake 5s before reading.</li>
+</ul>
+
+</div>
+</div>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-mitchel1977" class="csl-entry">
+Mitchel, R. E. J., and H. C. Birnboim. 1977. <span>“The Use of <span>Girard-T</span> Reagent in a Rapid and Sensitive Method for Measuring Glyoxal and Certain Other α-Dicarbonyl Compounds.”</span> <em>Analytical Biochemistry</em> 81 (1): 47–56. <a href="https://doi.org/10.1016/0003-2697(77)90597-8">https://doi.org/10.1016/0003-2697(77)90597-8</a>.
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="8">
+<li id="fn8"><p>borax decahydrate<a href="mgo.html#fnref8" class="footnote-back">↩︎</a></p></li>
+<li id="fn9"><p>avoid lower temperature to prevent precipitation<a href="mgo.html#fnref9" class="footnote-back">↩︎</a></p></li>
+<li id="fn10"><p>0.1 M Tris:HCl pH 8.5 containing 153 uM MgSO4, 0.2% w/v Triton X-100, no PMSF and EDTA<a href="mgo.html#fnref10" class="footnote-back">↩︎</a></p></li>
+<li id="fn11"><p>trials at 30°C and 90°C showed lower absorbance<a href="mgo.html#fnref11" class="footnote-back">↩︎</a></p></li>
+<li id="fn12"><p>may need another centrifuge for standards; small pellet could appear in samples but not in standards<a href="mgo.html#fnref12" class="footnote-back">↩︎</a></p></li>
+<li id="fn13"><p>pre-wetting the tip helps minimize Triton bubbles and increase homogeneity in samples (since supernatant is taken directly for measurement without transferring to new tube and vortexing)<a href="mgo.html#fnref13" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="lipids.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="MDA.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["protocols.pdf", "protocols.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+},
+"citation_package": "biblatex"
+});
+});
+</script>
+
+</body>
+
+</html>

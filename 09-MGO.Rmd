@@ -1,0 +1,29 @@
+# MGO
+
+Modified after @mitchel1977.
+
+## Materials
+
+-   ≈0.1 M borax: in 50 mL tube add 1.5255 g borax (M^[borax decahydrate] = 381.37) and 40 mL water. Make another one. Rotate 20 min. Transfer to 100 mL bottle. Store in dark at 25°C^[avoid lower temperature to prevent precipitation].
+-   0.2 M Girard's reagent T: in 50 mL tube add 1.3411 g Girard T (M = 167.64) and 40 mL water. Rotate 5 min. Transfer to 50 mL bottle. Store in dark at 4°C.
+-   1232 uM methylglyoxal stock solution: in 50 mL tube add 10 uL ≈6.16 M methylglyoxal (M = 72.06, 40% w/w in water, d = 1.11) and 50 mL homogenization buffer^[0.1 M Tris:HCl pH 8.5 containing 153 uM MgSO4, 0.2% w/v Triton X-100, no PMSF and EDTA] (5000-fold dilution). Rotate 5 min. Store at 4°C.
+
+## Methods
+
+-   Thaw out homogenate (max. 24 samples each run). **Vortex** and transfer 250 uL to 1.5 mL tube. Centrifuge at 10,000 ×*g* for 15 min at 25°C. Transfer 200 uL supernatant to 1.5 mL tube.
+-   Prepare 200 uL methylglyoxal standards in 1.5 mL tube by stock dilution.
+
+| uM standard | uL stock | uL homogenization buffer |
+|-------------|----------|--------------------------|
+| 1232        | 200      | 0                        |
+| 616         | 100      | 100                      |
+| 308         | 50       | 150                      |
+| 154         | 25       | 175                      |
+| 77          | 12.5     | 187.5                    |
+| 38.5        | 6.25     | 193.75                   |
+| 0           | 0        | 200                      |
+
+-   Add 250 uL borax and 50 uL Girard T to samples and standards using repeating pipette.
+-   **Vortex** and heat at 60°C^[trials at 30°C and 90°C showed lower absorbance] for 10 min. Cool to 25°C for 5 min.
+-   Centrifuge at 10,000 ×*g* for 5 min at 25°C^[may need another centrifuge for standards; small pellet could appear in samples but not in standards].
+-   Measure^[pre-wetting the tip helps minimize Triton bubbles and increase homogeneity in samples (since supernatant is taken directly for measurement without transferring to new tube and vortexing)] absorbance of 200 μL in **duplicate** at 325 nm. Shake 5s before reading.

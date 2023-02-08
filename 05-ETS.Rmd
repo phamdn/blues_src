@@ -1,0 +1,26 @@
+# ETS {#ETS}
+
+Modified after @decoen1997.
+
+## Materials 
+-	Buffer solution: 0.13 M Tris:HCl pH 8.5 containing 0.3% w/v Triton X-100
+    + Add 1.574 g Tris base (M = 121.14) to conical flask then fill with ~80 mL water. Add ~3.1 mL 2.5 M HCl to reach pH 8.5. Add 280.4 μL Triton X100 (d = 1.07 mg/μL). Dissolve, adjust pH if needed and add water to a volume of 100 mL, aided by volumetric flask. Transfer to DURAN bottle, store cold.
+-	Substrate solution: 1.7 mM NADH and 0.25 mM NADPH 
+Add 0.0241 g NADH (M = 709.4) and 0.0042 g NADPH (M = 833.35) to 20 mL buffer solution, store dark cold
+-	8 mM INT: 0.2023 g INT (M = 505.7) in 50 mL water, store dark cold
+-	For each batch of 24 samples, take out 10 mL buffer in Falcon tube, 1.3 mL Substrate in 1.5 mL tube, 5.3 mL INT in 50 mL glass bottle
+-	0.5 M KCN (M = 65.12): 32.6 mg KCN in 1mL water, freeze at – 20
+-	1 mM rotenone (M= 394.42): 0.39 mg rotenone in 1ml ethanol absolute, freeze at -20
+
+## Methods
+
+-	Rxn in duplicate wells: 
+    + 25 μL supernatant + 75 μL buffer + 23 μL KCN + 2 μL rotenone + 50 μL INT for self-control
+    +  25 μL supernatant + 75 μL buffer + 25 μL substrate + 50 μL INT (Handystep) for rxn
+    
+-	Measure kinetically at 490 nm in 10 min with 10s interval, at room temperature (25 °C), shake 5s before reading
+<!-- -	Rxn in duplicate wells: 25 μL supernatant + 100 μL buffer + 50 μL INT for self-control and 
+ each run 10 ml buffer + 1.3 mL subtrate + 5.3 mL INT
+
+-->
+

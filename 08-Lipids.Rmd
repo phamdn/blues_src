@@ -1,0 +1,31 @@
+# Lipids {#lipids}
+
+Modified after @inouye2006.
+
+## Materials
+-	Chloroform: methanol 1:1 v/v: mix 150 mL chloroform and 150 mL methanol in a 500 mL bottle, store dark room, pour to 100 mL bottle to use
+-	Concentrated H2SO4, store dark room
+-	5 mg oil/mL acetone stock solution: 5.7 μL oil (d = 0.87 mg/μL) in 1 mL acetone^[Pre-wetting 1 mL tip can prevent acetone dropping] 
+-	Vanillin reagent: dissolve 750 mg vanillin in 125 mL hot water then add 500 mL 85% H3PO4 in a 1 L bottle, store dark room, pour to 250 mL bottle to use
+
+## Methods
+-	Prepare standard curve using stock solution in 1.5 mL tubes: 5, 2.5, 1.25, 0.625, 0.3125, 0 mg/mL 
+
+| mg/mL standard | uL stock | uL acetone |
+|-------------|----------|--------------------------|
+| 5        | 200      | 0                        |
+| 2.5         | 100      | 100                      |
+| 1.25         | 50       | 150                      |
+| 0.625         | 25       | 175                      |
+| 0.3125          | 12.5     | 187.5                    |
+| 0        | 0     | 200                   |
+
+-	Add 375 μL homogenate to 2 mL tube^[already done when preparing for ETS assay]
+-	thawing homogenate, medium vortex, add 1.5 mL Chloroform: methanol, vortex and incubate 10 min
+-	Centrifuge 3000 g for 5 min at 4 °C, wait some time for methanol going up
+-	transfer 200 μL of low chloroform phase ^[wait for methanol getting out of the tip] to 1.5 mL tube
+-	spin down standards and samples
+-	evaporate solvent in standards and samples by heating at 90 °C for 10 min (open cap)
+-	Add 100 μL concentrated H2SO4 using Handystep, vortex twice and heat at 100 °C for 10 min (close cap)
+-	After cooling, transfer 50 μL to 1.5 mL microtubes tube already filled with 1 mL vanillin reagent, vortex
+-	After 5 min, measure 200 μL in triplicate at 490 nm

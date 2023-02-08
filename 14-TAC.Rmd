@@ -1,0 +1,29 @@
+# TAC
+
+Modified after @re1999.
+
+## Materials
+
+-   ≈63.63 mM potassium persulfate: in 5 mL tube add 86 mg K~2~S~2~O~8~ (M = 270.32) and 5 mL water. Vortex.
+-   ≈7.29 mM ABTS: in 15 mL tube add 40 mg ABTS salt (M = 548.68) and 10 mL water. Vortex.
+- ABTS radical cation stock solution: add 0.4 mL  K~2~S~2~O~8~ to 10 mL ABTS (final conc. 2.45 mM K~2~S~2~O~8~ + 7 mM ABTS). Vortex. Store in dark at 25°C for ≈24h before use.
+- 10 mM Trolox: in 5 mL tube add 12.5 mg Trolox (M = 250.29) and 5 mL homogenization buffer. Rotate 5 min. Use fresh.
+
+## Methods
+
+-   Thaw out supernatant (max. 40 samples each run). **Vortex** before use.
+-   Prepare 200 uL Trolox standards in 1.5 mL tube by stock dilution. **Vortex** and keep on ice.
+
+| uM standard | uL stock | uL homogenization buffer |
+|-------------|----------|--------------------------|
+| 0           | 0        | 200                      |
+| 500        | 10    | 190                   |
+| 1000          | 20     | 180                    |
+| 1500         | 30       | 170                      |
+| 2000         | 40       | 160                      |
+| 2500         | 50      | 150                      |
+| 3000        | 60      | 140                        |
+
+- Dilute^[check Abs beforehand with 3000 and 0 uM standards to fit the reader capacity. Adjust by adding stock solution or water] ABTS^•+^ ≈10X: in 50 mL tube add, e.g., 2.5 mL ABTS^•+^ stock solution and 22.5 mL water. Vortex. 
+-	Rxn in duplicate wells: 10 uL standards or samples + 200 uL diluted ABTS^•+^ using repeating pipette.
+-	Measure endpoint at 734 nm at room temperature (25 °C), shake 300s (5 min) before reading.

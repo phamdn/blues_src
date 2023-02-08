@@ -1,0 +1,637 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[style=apa,]{biblatex}
+\addbibresource{cite.bib}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Protocols for Ragworms},
+  pdfauthor={Duy Nghia Pham, Inna M. Sokolova},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Protocols for Ragworms}
+\author{Duy Nghia Pham, Inna M. Sokolova}
+\date{2023-01-07}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{homogenization}{%
+\chapter{Homogenization}\label{homogenization}}
+
+\hypertarget{materials}{%
+\section{Materials}\label{materials}}
+
+\begin{itemize}
+\item
+  0.1 M Tris:HCl pH 8.5 containing 153 μM MgSO4, 0.2\% w/v Triton X-100, 0.1 mM PMSF:
+
+  \begin{itemize}
+  \item
+    2.5 M HCl: in 250 mL conical flask pre-filled with ≈100 mL water add 51.754 mL\footnote{\url{https://www.sigmaaldrich.com/DE/en/support/calculators-and-apps/molarity-calculator}} 37\% HCl (d = 1.19 g/mL) using glass pipet. Transfer to 250 mL volumetric flask and fill up with water. Transfer to 250 mL bottle. Store at 25°C.
+  \item
+    In 1 L beaker add 12.114 g\footnote{\url{https://www.sigmaaldrich.com/DE/en/support/calculators-and-apps/mass-molarity-calculator}} Tris base (M = 121.14) and 0.0377 g MgSO4*7H2O (M = 246.48) then fill with ≈800 mL water. Add 21-23 mL 2.5 M HCl to reach pH 8.5. Transfer to 1 L volumetric flask and fill up with water. Transfer to 1 L bottle then dissolve 1869 μL Triton X100 (d = 1.07 mg/μL). Store at 4°C.
+  \item
+    200 mM PMSF stock: in 1.5 mL tube add 0.035 g PMSF (M = 174.2) and 1 mL isopropanol, store at -20 °C.
+  \end{itemize}
+\item
+  1.5 mL flat\footnote{compatible with FastPrep} screw cap tubes pre-filled with 500 mg zirconium beads (≈250 mg 2 mm beads and ≈250 mg 1 mm beads).
+\item
+  2 mL socket screw cap tubes.
+\item
+  Avery\footnote{\url{https://www.avery-zweckform.com/blanko-etiketten/rund-10-mm}} freeze-resistant round labels, no. 1-15 for each sample.
+\end{itemize}
+
+\hypertarget{methods}{%
+\section{Methods}\label{methods}}
+
+\begin{itemize}
+\item
+  Quickly cut the head (≈50 mg) and wrap it in the aluminum foil maintained in liquid nitrogen.
+\item
+  Record mass of the headless worm, transfer to 15 mL pre-cool glass homogenizer.
+\item
+  Prepare 1:25 tissue homogenate:
+
+  \begin{itemize}
+  \item
+    in 50 mL tube add 2.5 μL PMSF stock to every 5 mL cold buffer (2000-fold dilution) right before use. Invert briefly.
+  \item
+    Add 2500 μL buffer containing PMSF to every 100 mg wet tissue.
+  \end{itemize}
+\item
+  Record mass of the head, transfer to the 1.5 mL tube pre-filled with beads (no. 1). Cool down in liquid nitrogen then temporarily store at -20 °C.
+\item
+  Surround glass homogenizer by ice, rotate at 200 rpm for \textasciitilde3 min.
+\item
+  Aliquot 1.8 mL homogenate to 2 mL tubes (no. 2+) on ice then temporarily store at -20 °C.
+\item
+  Store tubes (no.1 for gene expression and no. 2+ for other biomarkers in separated cryoboxes) at -80 °C for downstream applications.
+\end{itemize}
+
+\hypertarget{cea}{%
+\chapter{CEA}\label{cea}}
+
+\hypertarget{organization}{%
+\section{Organization}\label{organization}}
+
+\begin{itemize}
+\tightlist
+\item
+  Transfer one homogenate tube (e.g., no. 2) of all samples to new cryoboxes.
+\item
+  Thaw out homogenate (max. 24 samples each run, 8 samples each sub-run).
+\item
+  Vortex and transfer 375 μL homogenate to 2 mL tube, store at -80 °C for later analysis of lipids (read more in \ref{lipids}).
+\item
+  Vortex and transfer 300 μL homogenate to 1.5 mL tube, centrifuge 3,000 ×\emph{g} for 5 min at 4 °C.
+\item
+  Transfer supernatant to 1.5 mL tube, use for ETS on the same day (read more in \ref{ETS}) and store the leftover at -80 °C for later analysis of carbohydrates and proteins (read more in \ref{proteins} and \ref{carbs}).
+\end{itemize}
+
+\hypertarget{ETS}{%
+\chapter{ETS}\label{ETS}}
+
+Modified after \textcite{decoen1997}.
+
+\hypertarget{materials-1}{%
+\section{Materials}\label{materials-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Buffer solution: 0.13 M Tris:HCl pH 8.5 containing 0.3\% w/v Triton X-100
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Add 1.574 g Tris base (M = 121.14) to conical flask then fill with \textasciitilde80 mL water. Add \textasciitilde3.1 mL 2.5 M HCl to reach pH 8.5. Add 280.4 μL Triton X100 (d = 1.07 mg/μL). Dissolve, adjust pH if needed and add water to a volume of 100 mL, aided by volumetric flask. Transfer to DURAN bottle, store cold.
+  \end{itemize}
+\item
+  Substrate solution: 1.7 mM NADH and 0.25 mM NADPH
+  Add 0.0241 g NADH (M = 709.4) and 0.0042 g NADPH (M = 833.35) to 20 mL buffer solution, store dark cold
+\item
+  8 mM INT: 0.2023 g INT (M = 505.7) in 50 mL water, store dark cold
+\item
+  For each batch of 24 samples, take out 10 mL buffer in Falcon tube, 1.3 mL Substrate in 1.5 mL tube, 5.3 mL INT in 50 mL glass bottle
+\item
+  0.5 M KCN (M = 65.12): 32.6 mg KCN in 1mL water, freeze at -- 20
+\item
+  1 mM rotenone (M= 394.42): 0.39 mg rotenone in 1ml ethanol absolute, freeze at -20
+\end{itemize}
+
+\hypertarget{methods-1}{%
+\section{Methods}\label{methods-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Rxn in duplicate wells:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    25 μL supernatant + 75 μL buffer + 23 μL KCN + 2 μL rotenone + 50 μL INT for self-control
+  \item
+    25 μL supernatant + 75 μL buffer + 25 μL substrate + 50 μL INT (Handystep) for rxn
+  \end{itemize}
+\item
+  Measure kinetically at 490 nm in 10 min with 10s interval, at room temperature (25 °C), shake 5s before reading
+\end{itemize}
+
+\hypertarget{proteins}{%
+\chapter{Proteins}\label{proteins}}
+
+Modified after \textcite{bradford1976}.
+
+\hypertarget{materials-2}{%
+\section{Materials}\label{materials-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  5 mg/mL BSA stock solution: e.g., 50 mg BSA in 10 mL homogenization buffer
+\item
+  2 mg/mL BSA stock solution: 0.5 mL 5 mg/mL BSA + 0.75 mL water
+\item
+  Bradford reagent
+\end{itemize}
+
+\hypertarget{methods-2}{%
+\section{Methods}\label{methods-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  dilute supernatant 8 times in 1.5 mL tube: 10 μL supernatant + 70 μL water, on ice
+\item
+  Prepare standard curve using 2 mg/mL BSA stock solution in 1.5 mL tubes on ice
+\end{itemize}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule()
+mg/mL standard & uL stock & uL water \\
+\midrule()
+\endhead
+2 & 200 & 0 \\
+1 & 100 & 100 \\
+0.5 & 50 & 150 \\
+0.25 & 25 & 175 \\
+0.125 & 12.5 & 187.5 \\
+0.0625 & 6.25 & 193.75 \\
+0 & 0 & 200 \\
+\bottomrule()
+\end{longtable}
+
+\begin{itemize}
+\tightlist
+\item
+  Add 200 μL Bradford reagent using handystep to 10 μL diluted supernatant or standards in wells
+\item
+  Shaking 300s (5 min) and measure in triplicate at 595 nm
+\end{itemize}
+
+\hypertarget{carbs}{%
+\chapter{Carbohydrates}\label{carbs}}
+
+Modified after \textcite{masuko2005}.
+
+\hypertarget{materials-3}{%
+\section{Materials}\label{materials-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  Concentrated H2SO4, store dark room
+\item
+  5\% phenol: 2 mL 90\% phenol + 34 mL water in Falcon tube, vortex then transfer to 50 mL glass bottle, store dark
+\item
+  100 mM glucose stock solution: e.g., 180.16 mg in 10 mL water, store cold
+\item
+  2 mM glucose stock solution: 200 μL stock solution + 9800 μL water, store cold
+\end{itemize}
+
+\hypertarget{methods-3}{%
+\section{Methods}\label{methods-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  dilute supernatant 8 times in 2 mL tube: 25 μL supernatant + 175 μL water = 200 μL
+\item
+  Prepare standard curve using 2 mM stock solution in 2 mL tubes: 2, 1, 0.5, 0.25, 0.125, 0.0625, 0 mM (200 μL in final)
+\end{itemize}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule()
+mM standard & uL stock & uL water \\
+\midrule()
+\endhead
+2 & 200 & 0 \\
+1 & 100 & 100 \\
+0.5 & 50 & 150 \\
+0.25 & 25 & 175 \\
+0.125 & 12.5 & 187.5 \\
+0.0625 & 6.25 & 193.75 \\
+0 & 0 & 200 \\
+\bottomrule()
+\end{longtable}
+
+\begin{itemize}
+\tightlist
+\item
+  Medium vortex samples and standards
+\item
+  Add 500 μL concentrated H2SO4 and 100 μL 5\% phenol both using Handystep
+\item
+  VORTEX FOR A WHILE and heat at 90 °C for 5 min, cool down for 5 min then vortex.
+\item
+  measure 200 μL in triplicate at 492 nm. Shake 5s before reading.
+\end{itemize}
+
+\hypertarget{lipids}{%
+\chapter{Lipids}\label{lipids}}
+
+Modified after \textcite{inouye2006}.
+
+\hypertarget{materials-4}{%
+\section{Materials}\label{materials-4}}
+
+\begin{itemize}
+\tightlist
+\item
+  Chloroform: methanol 1:1 v/v: mix 150 mL chloroform and 150 mL methanol in a 500 mL bottle, store dark room, pour to 100 mL bottle to use
+\item
+  Concentrated H2SO4, store dark room
+\item
+  5 mg oil/mL acetone stock solution: 5.7 μL oil (d = 0.87 mg/μL) in 1 mL acetone\footnote{Pre-wetting 1 mL tip can prevent acetone dropping}
+\item
+  Vanillin reagent: dissolve 750 mg vanillin in 125 mL hot water then add 500 mL 85\% H3PO4 in a 1 L bottle, store dark room, pour to 250 mL bottle to use
+\end{itemize}
+
+\hypertarget{methods-4}{%
+\section{Methods}\label{methods-4}}
+
+\begin{itemize}
+\tightlist
+\item
+  Prepare standard curve using stock solution in 1.5 mL tubes: 5, 2.5, 1.25, 0.625, 0.3125, 0 mg/mL
+\end{itemize}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule()
+mg/mL standard & uL stock & uL acetone \\
+\midrule()
+\endhead
+5 & 200 & 0 \\
+2.5 & 100 & 100 \\
+1.25 & 50 & 150 \\
+0.625 & 25 & 175 \\
+0.3125 & 12.5 & 187.5 \\
+0 & 0 & 200 \\
+\bottomrule()
+\end{longtable}
+
+\begin{itemize}
+\tightlist
+\item
+  Add 375 μL homogenate to 2 mL tube\footnote{already done when preparing for ETS assay}
+\item
+  thawing homogenate, medium vortex, add 1.5 mL Chloroform: methanol, vortex and incubate 10 min
+\item
+  Centrifuge 3000 g for 5 min at 4 °C, wait some time for methanol going up
+\item
+  transfer 200 μL of low chloroform phase \footnote{wait for methanol getting out of the tip} to 1.5 mL tube
+\item
+  spin down standards and samples
+\item
+  evaporate solvent in standards and samples by heating at 90 °C for 10 min (open cap)
+\item
+  Add 100 μL concentrated H2SO4 using Handystep, vortex twice and heat at 100 °C for 10 min (close cap)
+\item
+  After cooling, transfer 50 μL to 1.5 mL microtubes tube already filled with 1 mL vanillin reagent, vortex
+\item
+  After 5 min, measure 200 μL in triplicate at 490 nm
+\end{itemize}
+
+\hypertarget{mgo}{%
+\chapter{MGO}\label{mgo}}
+
+Modified after \textcite{mitchel1977}.
+
+\hypertarget{materials-5}{%
+\section{Materials}\label{materials-5}}
+
+\begin{itemize}
+\tightlist
+\item
+  ≈0.1 M borax: in 50 mL tube add 1.5255 g borax (M\footnote{borax decahydrate} = 381.37) and 40 mL water. Make another one. Rotate 20 min. Transfer to 100 mL bottle. Store in dark at 25°C\footnote{avoid lower temperature to prevent precipitation}.
+\item
+  0.2 M Girard's reagent T: in 50 mL tube add 1.3411 g Girard T (M = 167.64) and 40 mL water. Rotate 5 min. Transfer to 50 mL bottle. Store in dark at 4°C.
+\item
+  1232 uM methylglyoxal stock solution: in 50 mL tube add 10 uL ≈6.16 M methylglyoxal (M = 72.06, 40\% w/w in water, d = 1.11) and 50 mL homogenization buffer\footnote{0.1 M Tris:HCl pH 8.5 containing 153 uM MgSO4, 0.2\% w/v Triton X-100, no PMSF and EDTA} (5000-fold dilution). Rotate 5 min. Store at 4°C.
+\end{itemize}
+
+\hypertarget{methods-5}{%
+\section{Methods}\label{methods-5}}
+
+\begin{itemize}
+\tightlist
+\item
+  Thaw out homogenate (max. 24 samples each run). \textbf{Vortex} and transfer 250 uL to 1.5 mL tube. Centrifuge at 10,000 ×\emph{g} for 15 min at 25°C. Transfer 200 uL supernatant to 1.5 mL tube.
+\item
+  Prepare 200 uL methylglyoxal standards in 1.5 mL tube by stock dilution.
+\end{itemize}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule()
+uM standard & uL stock & uL homogenization buffer \\
+\midrule()
+\endhead
+1232 & 200 & 0 \\
+616 & 100 & 100 \\
+308 & 50 & 150 \\
+154 & 25 & 175 \\
+77 & 12.5 & 187.5 \\
+38.5 & 6.25 & 193.75 \\
+0 & 0 & 200 \\
+\bottomrule()
+\end{longtable}
+
+\begin{itemize}
+\tightlist
+\item
+  Add 250 uL borax and 50 uL Girard T to samples and standards using repeating pipette.
+\item
+  \textbf{Vortex} and heat at 60°C\footnote{trials at 30°C and 90°C showed lower absorbance} for 10 min. Cool to 25°C for 5 min.
+\item
+  Centrifuge at 10,000 ×\emph{g} for 5 min at 25°C\footnote{may need another centrifuge for standards; small pellet could appear in samples but not in standards}.
+\item
+  Measure\footnote{pre-wetting the tip helps minimize Triton bubbles and increase homogeneity in samples (since supernatant is taken directly for measurement without transferring to new tube and vortexing)} absorbance of 200 μL in \textbf{duplicate} at 325 nm. Shake 5s before reading.
+\end{itemize}
+
+\hypertarget{MDA}{%
+\chapter{MDA}\label{MDA}}
+
+Modified after \textcite{buege1978}.
+
+\hypertarget{materials-6}{%
+\section{Materials}\label{materials-6}}
+
+\begin{itemize}
+\tightlist
+\item
+  15\% w/v TCA - 0.375\% w/v TBA - 0.25 M HCl reagent: Add 0.1875 g TBA in 50 mL tube. Add 34 mL 20\% w/w TCA (density 1.1 g/mL, equivalent to 22\% w/v). Add 5 mL 2.5 M HCl. Add 10 mL water to a volume of nearly 50 mL. Wrap by aluminum, rotate for 1h, store dark room. Rotate for 5 min before use each day.
+\end{itemize}
+
+\hypertarget{methods-6}{%
+\section{Methods}\label{methods-6}}
+
+\begin{itemize}
+\tightlist
+\item
+  Thaw out homogenate (max. 22 samples each run). \textbf{Vortex} and transfer 200 uL to 1.5 mL tube \textbf{with snap cap with hole made by needle}. Use 200 uL homogenization buffer for control in \textbf{duplicate}.
+\item
+  Add 500 uL reagent to samples and controls (24 tubes in total), \textbf{NOT vortex}.
+\item
+  Heat at 90 °C for 20 min. Cool for 15 min.
+\item
+  Centrifuge at 10,000 ×\emph{g} for 3 min at 25 °C. Rotate tubes 180° then centrifuge one more time with same settings.
+\item
+  Allow air to escape (especially in control). Measure absorbance of 200 μL in \textbf{triplicate} at 530 nm. Shake 5s before reading.
+\end{itemize}
+
+\hypertarget{enzyme-assays}{%
+\chapter{Enzyme assays}\label{enzyme-assays}}
+
+\hypertarget{organization-1}{%
+\section{Organization}\label{organization-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Thaw out homogenate (max. 22 samples each run, 11 samples each sub-run).
+\item
+  Vortex and transfer 300 μL homogenate to 1.5 mL tube, centrifuge 6,000 ×\emph{g} for 10 min at 4 °C.
+\item
+  Transfer supernatant to 1.5 mL tube, use for GR on the same day (read more in \ref{GR}) and store the leftover at -80 °C for later measurement of GST (read more in \ref{GST}).
+\end{itemize}
+
+\hypertarget{GR}{%
+\chapter{GR}\label{GR}}
+
+Modified after \textcite{mannervik1999}.
+
+\hypertarget{materials-7}{%
+\section{Materials}\label{materials-7}}
+
+\begin{itemize}
+\tightlist
+\item
+  1 mM NADPH: in 5 mL tube add 4.2 mg NADPH (M = 833.4) and 5 mL homogenization buffer. Store at 4°C.
+\item
+  10 mM GSSG: in 5 mL tube add 30.6 mg GSSG (M = 612.6) and 5 mL water. Store at 4°C.
+\item
+  1\% BSA: in 5 mL tube add 50 mg BSA and 5 mL homogenization buffer. Store at 4°C.
+\end{itemize}
+
+\hypertarget{methods-7}{%
+\section{Methods}\label{methods-7}}
+
+\begin{itemize}
+\tightlist
+\item
+  Master mix for 24 rxn: in 5 mL tube add 3120 uL homogenization buffer, 520 uL NADPH, 520 uL GSSG, and 520 uL BSA (120:20:20:20). \textbf{Vortex}.
+\item
+  Rxn in duplicate wells:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    180 uL master mix + 20 uL homogenization buffer for control
+  \item
+    180 uL master mix + 20 uL supernatant for sample
+  \end{itemize}
+\item
+  Measure kinetically at 340 nm in 15 min with 30s interval, at room temperature (25 °C), shake 5s before reading. Use 21/31 points for slope.
+\end{itemize}
+
+\hypertarget{GST}{%
+\chapter{GST}\label{GST}}
+
+Modified after \textcite{habig1974}.
+
+\hypertarget{materials-8}{%
+\section{Materials}\label{materials-8}}
+
+\begin{itemize}
+\tightlist
+\item
+  5 mM GSH: in 5 mL tube add 7.7 mg GSH (M = 307.33) and 5 mL homogenization buffer. Use fresh only.
+\item
+  5 mM CDNB:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Prepare 100 mM CNDB stock: e.g., in 15 mL tube add 286.9 mg CDNB (M = 202.55) and 14.16 mL absolute ethanol. Store at -20°C.
+  \item
+    Dilute 20X: in 2mL tube add 50 uL stock and 950 uL absolute ethanol.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{methods-8}{%
+\section{Methods}\label{methods-8}}
+
+\begin{itemize}
+\tightlist
+\item
+  Master mix for 24 rxn: in 5 mL tube add 4160 uL homogenization buffer, 260 uL GSH, and 260 uL CDNB (160:10:10). \textbf{Vortex}.
+\item
+  Rxn in duplicate wells:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    180 uL master mix + 20 uL homogenization buffer for control
+  \item
+    180 uL master mix + 20 uL supernatant for sample
+  \end{itemize}
+\item
+  Measure kinetically at 340 nm in 15 min with 30s interval, at room temperature (25 °C), shake 5s before reading. Use 21/31 points for slope.
+\end{itemize}
+
+\hypertarget{tac}{%
+\chapter{TAC}\label{tac}}
+
+Modified after \textcite{re1999}.
+
+\hypertarget{materials-9}{%
+\section{Materials}\label{materials-9}}
+
+\begin{itemize}
+\tightlist
+\item
+  ≈63.63 mM potassium persulfate: in 5 mL tube add 86 mg K\textsubscript{2}S\textsubscript{2}O\textsubscript{8} (M = 270.32) and 5 mL water. Vortex.
+\item
+  ≈7.29 mM ABTS: in 15 mL tube add 40 mg ABTS salt (M = 548.68) and 10 mL water. Vortex.
+\item
+  ABTS radical cation stock solution: add 0.4 mL K\textsubscript{2}S\textsubscript{2}O\textsubscript{8} to 10 mL ABTS (final conc. 2.45 mM K\textsubscript{2}S\textsubscript{2}O\textsubscript{8} + 7 mM ABTS). Vortex. Store in dark at 25°C for ≈24h before use.
+\item
+  10 mM Trolox: in 5 mL tube add 12.5 mg Trolox (M = 250.29) and 5 mL homogenization buffer. Rotate 5 min. Use fresh.
+\end{itemize}
+
+\hypertarget{methods-9}{%
+\section{Methods}\label{methods-9}}
+
+\begin{itemize}
+\tightlist
+\item
+  Thaw out supernatant (max. 40 samples each run). \textbf{Vortex} before use.
+\item
+  Prepare 200 uL Trolox standards in 1.5 mL tube by stock dilution. \textbf{Vortex} and keep on ice.
+\end{itemize}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule()
+uM standard & uL stock & uL homogenization buffer \\
+\midrule()
+\endhead
+0 & 0 & 200 \\
+500 & 10 & 190 \\
+1000 & 20 & 180 \\
+1500 & 30 & 170 \\
+2000 & 40 & 160 \\
+2500 & 50 & 150 \\
+3000 & 60 & 140 \\
+\bottomrule()
+\end{longtable}
+
+\begin{itemize}
+\tightlist
+\item
+  Dilute\footnote{check Abs beforehand with 3000 and 0 uM standards to fit the reader capacity. Adjust by adding stock solution or water} ABTS\textsuperscript{•+} ≈10X: in 50 mL tube add, e.g., 2.5 mL ABTS\textsuperscript{•+} stock solution and 22.5 mL water. Vortex.
+\item
+  Rxn in duplicate wells: 10 uL standards or samples + 200 uL diluted ABTS\textsuperscript{•+} using repeating pipette.
+\item
+  Measure endpoint at 734 nm at room temperature (25 °C), shake 300s (5 min) before reading.
+\end{itemize}
+
+\hypertarget{gene-expression}{%
+\chapter{Gene expression}\label{gene-expression}}
+
+updating
+
+\printbibliography
+
+\end{document}

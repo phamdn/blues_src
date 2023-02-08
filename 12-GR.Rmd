@@ -1,0 +1,16 @@
+# GR {#GR}
+
+Modified after @mannervik1999.
+
+## Materials
+-	1 mM NADPH: in 5 mL tube add 4.2 mg NADPH (M = 833.4) and 5 mL homogenization buffer. Store at 4°C.
+-	10 mM GSSG: in 5 mL tube add 30.6 mg GSSG (M = 612.6) and 5 mL water. Store at 4°C.
+-	1% BSA: in 5 mL tube add 50 mg BSA and 5 mL homogenization buffer. Store at 4°C.
+
+## Methods
+
+- Master mix for 24 rxn: in 5 mL tube add 3120 uL homogenization buffer, 520 uL NADPH, 520 uL GSSG, and 520 uL BSA (120:20:20:20). **Vortex**.
+-	Rxn in duplicate wells: 
+    + 180 uL master mix + 20 uL homogenization buffer for control
+    + 180 uL master mix + 20 uL supernatant for sample
+-	Measure kinetically at 340 nm in 15 min with 30s interval, at room temperature (25 °C), shake 5s before reading. Use 21/31 points for slope.

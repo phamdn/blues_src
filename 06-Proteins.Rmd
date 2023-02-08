@@ -1,0 +1,30 @@
+# Proteins {#proteins}
+
+Modified after @bradford1976.
+
+## Materials
+-	5 mg/mL BSA stock solution: e.g., 50 mg BSA in 10 mL homogenization buffer
+-	2 mg/mL BSA stock solution: 0.5 mL 5 mg/mL BSA + 0.75 mL water
+-	Bradford reagent
+
+## Methods
+
+-	dilute supernatant 8 times in 1.5 mL tube: 10 μL supernatant + 70 μL water, on ice
+-	Prepare standard curve using 2 mg/mL BSA stock solution in 1.5 mL tubes on ice
+
+| mg/mL standard | uL stock | uL water |
+|-------------|----------|--------------------------|
+| 2        | 200      | 0                        |
+| 1         | 100      | 100                      |
+| 0.5         | 50       | 150                      |
+| 0.25         | 25       | 175                      |
+| 0.125          | 12.5     | 187.5                    |
+| 0.0625        | 6.25     | 193.75                   |
+| 0           | 0        | 200                      |
+
+-	Add 200 μL Bradford reagent using handystep to 10 μL diluted supernatant or standards in wells
+-	Shaking 300s (5 min) and measure in triplicate at 595 nm
+
+
+
+

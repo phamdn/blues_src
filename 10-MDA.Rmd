@@ -1,0 +1,13 @@
+# MDA {#MDA}
+
+Modified after @buege1978.
+
+## Materials
+-	15% w/v TCA - 0.375% w/v TBA - 0.25 M HCl reagent: Add 0.1875 g TBA in 50 mL tube. Add 34 mL 20% w/w TCA (density 1.1 g/mL, equivalent to 22% w/v). Add 5 mL 2.5 M HCl. Add 10 mL water to a volume of nearly 50 mL. Wrap by aluminum, rotate for 1h, store dark room. Rotate for 5 min before use each day.
+
+## Methods
+-   Thaw out homogenate (max. 22 samples each run). **Vortex** and transfer 200 uL to 1.5 mL tube **with snap cap with hole made by needle**. Use 200 uL homogenization buffer for control in **duplicate**.
+- Add 500 uL reagent to samples and controls (24 tubes in total), **NOT vortex**.
+-	Heat at 90 °C for 20 min. Cool for 15 min.
+-	Centrifuge at 10,000 ×*g* for 3 min at 25 °C. Rotate tubes 180° then centrifuge one more time with same settings.
+- Allow air to escape (especially in control). Measure absorbance of 200 μL in **triplicate** at 530 nm. Shake 5s before reading.

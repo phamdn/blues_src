@@ -1,0 +1,8 @@
+# Enzyme assays
+
+## Organization
+
+- Thaw out homogenate (max. 22 samples each run, 11 samples each sub-run). 
+-  Vortex and transfer 300 μL homogenate to 1.5 mL tube, centrifuge 6,000 ×*g* for 10 min at 4 °C.
+-	Transfer supernatant to 1.5 mL tube, use for GR on the same day (read more in \@ref(GR)) and store the leftover at -80 °C for later measurement of GST (read more in \@ref(GST)).
+

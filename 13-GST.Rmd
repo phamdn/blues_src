@@ -1,0 +1,17 @@
+# GST {#GST}
+
+Modified after @habig1974.
+
+## Materials
+-	5 mM GSH: in 5 mL tube add 7.7 mg GSH (M = 307.33) and 5 mL homogenization buffer. Use fresh only.
+-	5 mM CDNB: 
+    + Prepare 100 mM CNDB stock: e.g., in 15 mL tube add 286.9 mg CDNB (M = 202.55) and 14.16 mL absolute ethanol. Store at -20°C. 
+    + Dilute 20X: in 2mL tube add 50 uL stock and 950 uL absolute ethanol.
+
+## Methods
+
+- Master mix for 24 rxn: in 5 mL tube add 4160 uL homogenization buffer, 260 uL GSH, and 260 uL CDNB (160:10:10). **Vortex**.
+-	Rxn in duplicate wells: 
+    + 180 uL master mix + 20 uL homogenization buffer for control
+    + 180 uL master mix + 20 uL supernatant for sample
+-	Measure kinetically at 340 nm in 15 min with 30s interval, at room temperature (25 °C), shake 5s before reading. Use 21/31 points for slope.

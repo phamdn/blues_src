@@ -1,0 +1,50 @@
+--- 
+title: "Protocols for Ragworms"
+author: "Duy Nghia Pham, Inna M. Sokolova"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+# bibliography: [book.bib, packages.bib]
+# url: https://doi.org/10.1016/j.chemosphere.2022.136736
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+bibliography: cite.bib
+biblio-style: apa
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Homogenization
+
+## Materials
+
+-	0.1 M Tris:HCl pH 8.5 containing 153 μM MgSO4, 0.2% w/v Triton X-100, 0.1 mM PMSF:
+
+    + 2.5 M HCl: in 250 mL conical flask pre-filled with ≈100 mL water add 51.754 mL^[https://www.sigmaaldrich.com/DE/en/support/calculators-and-apps/molarity-calculator] 37% HCl (d = 1.19 g/mL) using glass pipet. Transfer to 250 mL volumetric flask and fill up with water. Transfer to 250 mL bottle. Store at 25°C.
+
+    + In 1 L beaker add 12.114 g^[https://www.sigmaaldrich.com/DE/en/support/calculators-and-apps/mass-molarity-calculator] Tris base (M = 121.14) and 0.0377 g MgSO4*7H2O (M = 246.48) then fill with ≈800 mL water. Add 21-23 mL 2.5 M HCl to reach pH 8.5. Transfer to 1 L volumetric flask and fill up with water. Transfer to 1 L bottle then dissolve 1869 μL Triton X100 (d = 1.07 mg/μL). Store at 4°C.
+
+    + 200 mM PMSF stock: in 1.5 mL tube add 0.035 g PMSF (M = 174.2) and 1 mL isopropanol, store at -20 °C. 
+    
+- 1.5 mL flat^[compatible with FastPrep] screw cap tubes pre-filled with 500 mg zirconium beads (≈250 mg 2 mm beads and ≈250 mg 1 mm beads).
+- 2 mL socket screw cap tubes.
+- Avery^[https://www.avery-zweckform.com/blanko-etiketten/rund-10-mm] freeze-resistant round labels, no. 1-15 for each sample. 
+
+## Methods
+-	Quickly cut the head (≈50 mg) and wrap it in the aluminum foil maintained in liquid nitrogen.
+- Record mass of the headless worm, transfer to 15 mL pre-cool glass homogenizer.
+
+-	Prepare 1:25 tissue homogenate:
+
+    + in 50 mL tube add 2.5 μL PMSF stock to every 5 mL cold buffer (2000-fold dilution) right before use. Invert briefly.
+    
+    + Add 2500 μL buffer containing PMSF to every 100 mg wet tissue.
+    
+- Record mass of the head, transfer to the 1.5 mL tube pre-filled with beads (no. 1). Cool down in liquid nitrogen then temporarily store at -20 °C.
+-	Surround glass homogenizer by ice, rotate at 200 rpm for ~3 min.
+-	Aliquot 1.8 mL homogenate to 2 mL tubes (no. 2+) on ice then temporarily store at -20 °C.
+-  Store tubes (no.1 for gene expression and no. 2+ for other biomarkers in separated cryoboxes) at -80 °C for downstream applications.
+

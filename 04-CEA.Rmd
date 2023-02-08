@@ -1,0 +1,10 @@
+# CEA
+
+## Organization
+
+- Transfer one homogenate tube (e.g., no. 2) of all samples to new cryoboxes.
+- Thaw out homogenate (max. 24 samples each run, 8 samples each sub-run). 
+-  Vortex and transfer 375 μL homogenate to 2 mL tube, store at -80 °C for later analysis of lipids (read more in \@ref(lipids)).
+-	Vortex and transfer 300 μL homogenate to 1.5 mL tube, centrifuge 3,000 ×*g* for 5 min at 4 °C.
+-	Transfer supernatant to 1.5 mL tube, use for ETS on the same day (read more in \@ref(ETS)) and store the leftover at -80 °C for later analysis of carbohydrates and proteins (read more in \@ref(proteins) and \@ref(carbs)).
+

@@ -1,0 +1,29 @@
+# Carbohydrates {#carbs}
+
+Modified after @masuko2005.
+
+## Materials
+-	Concentrated H2SO4, store dark room
+-	5% phenol: 2 mL 90% phenol + 34 mL water in Falcon tube, vortex then transfer to 50 mL glass bottle, store dark
+-	100 mM glucose stock solution: e.g., 180.16 mg in 10 mL water, store cold
+-	2 mM glucose stock solution: 200 μL stock solution + 9800 μL water, store cold
+
+## Methods
+
+-	dilute supernatant 8 times in 2 mL tube: 25 μL supernatant + 175 μL water = 200 μL
+-	Prepare standard curve using 2 mM stock solution in 2 mL tubes: 2, 1, 0.5, 0.25, 0.125, 0.0625, 0 mM (200 μL in final)
+
+| mM standard | uL stock | uL water |
+|-------------|----------|--------------------------|
+| 2        | 200      | 0                        |
+| 1         | 100      | 100                      |
+| 0.5         | 50       | 150                      |
+| 0.25         | 25       | 175                      |
+| 0.125          | 12.5     | 187.5                    |
+| 0.0625        | 6.25     | 193.75                   |
+| 0           | 0        | 200                      |
+
+-	Medium vortex samples and standards
+-	Add 500 μL concentrated H2SO4 and 100 μL 5% phenol both using Handystep
+-	VORTEX FOR A WHILE and heat at 90 °C for 5 min, cool down for 5 min then vortex.
+-	measure 200 μL in triplicate at 492 nm. Shake 5s before reading.
