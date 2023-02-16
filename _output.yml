@@ -4,7 +4,7 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="./">Protocols for Ragworms</a></li>
+        <li><a href="https://github.com/phamdn/blues_src">View update history</a></li>
       after: |
         <li><a href="mailto:nghiapham@yandex.com" target="blank">Send feedback</a></li>
     # edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
